@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
         RequestBody body = RequestBody.create(JSON, contentJsonObject.toString());
 
         final Request request = new Request.Builder()
-                .url("https://speech.googleapis.com/v1/speech:recognize?key=AIzaSyAD8eSr6H8CnhA9tIz2Cid3FNbxbp-7k0w")
+                .url("https://speech.googleapis.com/v1/speech:recognize?key=??????")
                 //.url("https://requestb.in/1m9mys01")
                 .post(body)
                 .addHeader("content-type", "application/json")
